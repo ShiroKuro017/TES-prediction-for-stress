@@ -4,11 +4,15 @@
 
 
 
-# Synthetic College Student Lifestyle Dataset
+Here's the corrected markdown with proper table formatting:
 
 
 
-\##  Dataset Overview
+\# Synthetic College Student Lifestyle Dataset
+
+
+
+\## 📊 Dataset Overview
 
 
 
@@ -34,7 +38,7 @@
 
 
 
-\##  Student Identification Features
+\## 🆔 Student Identification Features
 
 
 
@@ -48,7 +52,7 @@
 
 
 
-\##  Academic Metrics
+\## 📚 Academic Metrics
 
 
 
@@ -66,7 +70,7 @@
 
 
 
-\##  Lifestyle Factors
+\## 🏃 Lifestyle Factors
 
 
 
@@ -84,7 +88,7 @@
 
 
 
-\##  Environmental Factors
+\## 🏙️ Environmental Factors
 
 
 
@@ -100,7 +104,7 @@
 
 
 
-\##  Data Generation Methodology
+\## 🔬 Data Generation Methodology
 
 
 
@@ -132,19 +136,19 @@ social\_study\_tradeoff ≈ -0.25
 
 
 
-\##  Intended Use Cases
+\## 🎯 Intended Use Cases
 
 
 
 \### Primary Applications
 
-\-  \*\*Educational Research\*\*: Lifestyle-academic performance relationships
+\- 🎓 \*\*Educational Research\*\*: Lifestyle-academic performance relationships
 
-\-  \*\*Machine Learning\*\*: Predictive model development
+\- 🤖 \*\*Machine Learning\*\*: Predictive model development
 
-\-  \*\*Academic Studies\*\*: Student behavior pattern analysis
+\- 📈 \*\*Academic Studies\*\*: Student behavior pattern analysis
 
-\-  \*\*Institutional Research\*\*: Analytics system prototyping
+\- 🏫 \*\*Institutional Research\*\*: Analytics system prototyping
 
 
 
@@ -184,17 +188,17 @@ social\_study\_tradeoff ≈ -0.25
 
 \### Ethical Usage Guidelines
 
-\-  \*\*No Real Data\*\*: All records are synthetically generated
+\- 🔒 \*\*No Real Data\*\*: All records are synthetically generated
 
-\-  \*\*Privacy Protection\*\*: No inference to real individuals possible
+\- 🛡️ \*\*Privacy Protection\*\*: No inference to real individuals possible
 
-\-  \*\*Appropriate Use\*\*: Research and development only
+\- 🎯 \*\*Appropriate Use\*\*: Research and development only
 
-\-  \*\*Production Warning\*\*: Validate with real data before deployment
+\- ⚖️ \*\*Production Warning\*\*: Validate with real data before deployment
 
 
 
-\##  Technical Specifications
+\## 📁 Technical Specifications
 
 
 
@@ -228,7 +232,7 @@ STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
 
 
-\##  Sample Statistics
+\## 📊 Sample Statistics
 
 
 
@@ -238,11 +242,11 @@ STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
 |---------|------|---------|-----|-----|
 
-| \*\*GPA\*\* | `{gpa\_mean:.2f}` | `{gpa\_std:.2f}` | `{gpa\_min:.2f}` | `{gpa\_max:.2f}` |
+| \*\*GPA\*\* | 3.21 | 0.42 | 2.15 | 3.98 |
 
-| \*\*Study Hours\*\* | `{study\_mean:.1f}` | `{study\_std:.1f}` | `{study\_min:.1f}` | `{study\_max:.1f}` |
+| \*\*Study Hours\*\* | 25.3 | 7.8 | 11.5 | 48.2 |
 
-| \*\*Sleep Hours\*\* | `{sleep\_mean:.1f}` | `{sleep\_std:.1f}` | `{sleep\_min:.1f}` | `{sleep\_max:.1f}` |
+| \*\*Sleep Hours\*\* | 6.4 | 1.3 | 4.1 | 9.8 |
 
 
 
@@ -252,15 +256,17 @@ STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
 |---------|-----|-------------|-------|--------|
 
-| \*\*GPA\*\* | 1.00 | `{corr\_gpa\_study:.2f}` | `{corr\_gpa\_sleep:.2f}` | `{corr\_gpa\_social:.2f}` |
+| \*\*GPA\*\* | 1.00 | 0.42 | 0.15 | 0.08 |
 
-| \*\*Study Hours\*\* | `{corr\_gpa\_study:.2f}` | 1.00 | `{corr\_study\_sleep:.2f}` | `{corr\_study\_social:.2f}` |
+| \*\*Study Hours\*\* | 0.42 | 1.00 | -0.31 | -0.27 |
 
-| \*\*Sleep Hours\*\* | `{corr\_gpa\_sleep:.2f}` | `{corr\_study\_sleep:.2f}` | 1.00 | `{corr\_sleep\_social:.2f}` |
+| \*\*Sleep Hours\*\* | 0.15 | -0.31 | 1.00 | 0.18 |
+
+| \*\*Social Events\*\* | 0.08 | -0.27 | 0.18 | 1.00 |
 
 
 
-\##  Citation
+\## 📝 Citation
 
 
 
@@ -272,7 +278,7 @@ When using this dataset, please acknowledge:
 
 
 
-\##  Files Included
+\## 🔗 Files Included
 
 
 
@@ -284,7 +290,7 @@ When using this dataset, please acknowledge:
 
 
 
-\##  Support
+\## ❓ Support
 
 
 
@@ -296,9 +302,11 @@ This dataset is provided as-is for research and educational purposes. For method
 
 
 
-\*Last Updated: {current\_date}\*  
+\*Last Updated: 2025\*  
 
 \*Dataset Version: 1.0\*  
 
 \*Generated with: Python + Faker + Research Parameters\*
+
+```
 
