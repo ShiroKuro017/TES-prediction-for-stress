@@ -3,6 +3,7 @@
 "TES prediction for stress" just a repo and code for what i and my friend learn for master
 
 
+
 \# Synthetic College Student Lifestyle Dataset
 
 
@@ -11,25 +12,21 @@
 
 
 
-| Attribute | Description |
+\*\*Dataset Name\*\*: Synthetic College Student Lifestyle Dataset  
 
-|-----------|-------------|
+\*\*Purpose\*\*: Educational research, academic studies, and machine learning model development  
 
-| Dataset Name | Synthetic College Student Lifestyle Dataset |
+\*\*Records\*\*: 300 synthetic student profiles  
 
-| Purpose | Educational research, academic studies, and machine learning model development |
+\*\*Features\*\*: 13 variables across 3 categories  
 
-| Records | 300 synthetic student profiles |
+\*\*Format\*\*: CSV (Comma-Separated Values)  
 
-| Features | 13 variables across 3 categories |
+\*\*File Size\*\*: ~45-50 KB  
 
-| Format | CSV (Comma-Separated Values) |
+\*\*Encoding\*\*: UTF-8  
 
-| File Size | ~45-50 KB |
-
-| Encoding | UTF-8 |
-
-| Ethical Status | Fully synthetic, no real student data |
+\*\*Ethical Status\*\*: Fully synthetic, no real student data
 
 
 
@@ -37,13 +34,19 @@
 
 
 
-| Feature | Type | Description | Format/Range |
+\*\*student\_id\*\* (String)
 
-|---------|------|-------------|--------------|
+\- Unique synthetic identifier
 
-| `student\_id` | String | Unique synthetic identifier | `STU\_XXXX` |
+\- Format: `STU\_XXXX`
 
-| `name` | String | Synthetic full name | Faker-generated |
+
+
+\*\*name\*\* (String)
+
+\- Synthetic full name
+
+\- Faker-generated
 
 
 
@@ -51,17 +54,43 @@
 
 
 
-| Feature | Type | Range | Distribution | Description |
+\*\*gpa\*\* (Float)
 
-|---------|------|-------|--------------|-------------|
+\- Range: 2.0 - 4.0
 
-| `gpa` | Float | 2.0 - 4.0 | Normal (μ=3.2, σ=0.5) | Grade Point Average on 4.0 scale |
+\- Distribution: Normal (μ=3.2, σ=0.5)
 
-| `weekly\_study\_hours` | Float | 10 - 50 hours | Normal (μ=25, σ=8) | Total study hours per week |
+\- Description: Grade Point Average on 4.0 scale
 
-| `assignments\_due\_this\_week` | Integer | 0 - 6 | Poisson (λ=2.5) | Assignments due in current week |
 
-| `classes\_per\_week` | Integer | 12 - 25 hours | Uniform | Total class hours weekly |
+
+\*\*weekly\_study\_hours\*\* (Float)
+
+\- Range: 10 - 50 hours
+
+\- Distribution: Normal (μ=25, σ=8)
+
+\- Description: Total study hours per week
+
+
+
+\*\*assignments\_due\_this\_week\*\* (Integer)
+
+\- Range: 0 - 6
+
+\- Distribution: Poisson (λ=2.5)
+
+\- Description: Assignments due in current week
+
+
+
+\*\*classes\_per\_week\*\* (Integer)
+
+\- Range: 12 - 25 hours
+
+\- Distribution: Uniform
+
+\- Description: Total class hours weekly
 
 
 
@@ -69,17 +98,43 @@
 
 
 
-| Feature | Type | Range | Distribution | Description |
+\*\*sleep\_hours\_per\_night\*\* (Float)
 
-|---------|------|-------|--------------|-------------|
+\- Range: 4 - 10 hours
 
-| `sleep\_hours\_per\_night` | Float | 4 - 10 hours | Normal (μ=6.5, σ=1.2) | Average nightly sleep |
+\- Distribution: Normal (μ=6.5, σ=1.2)
 
-| `social\_events\_per\_week` | Float | 0 - 7 events | Modified Normal | Social activities attended |
+\- Description: Average nightly sleep
 
-| `exercise\_hours\_per\_week` | Float | 0 - 15 hours | Exponential (λ=3) | Physical exercise hours |
 
-| `extracurricular\_hours` | Float | 0 - 10 hours | Exponential (λ=2) | Extracurricular activity hours |
+
+\*\*social\_events\_per\_week\*\* (Float)
+
+\- Range: 0 - 7 events
+
+\- Distribution: Modified Normal
+
+\- Description: Social activities attended
+
+
+
+\*\*exercise\_hours\_per\_week\*\* (Float)
+
+\- Range: 0 - 15 hours
+
+\- Distribution: Exponential (λ=3)
+
+\- Description: Physical exercise hours
+
+
+
+\*\*extracurricular\_hours\*\* (Float)
+
+\- Range: 0 - 10 hours
+
+\- Distribution: Exponential (λ=2)
+
+\- Description: Extracurricular activity hours
 
 
 
@@ -87,15 +142,33 @@
 
 
 
-| Feature | Type | Range | Distribution | Description |
+\*\*part\_time\_job\_hours\*\* (Integer)
 
-|---------|------|-------|--------------|-------------|
+\- Range: 0 - 25 hours
 
-| `part\_time\_job\_hours` | Integer | 0 - 25 hours | Conditional | Work hours (30% employed) |
+\- Distribution: Conditional
 
-| `commute\_time\_minutes` | Integer | 0 - 120 min | Exponential | Daily one-way commute |
+\- Description: Work hours (30% employed)
 
-| `financial\_stress\_level` | Float | 1 - 5 scale | Beta (α=2, β=5) | Self-reported financial stress |
+
+
+\*\*commute\_time\_minutes\*\* (Integer)
+
+\- Range: 0 - 120 min
+
+\- Distribution: Exponential
+
+\- Description: Daily one-way commute
+
+
+
+\*\*financial\_stress\_level\*\* (Float)
+
+\- Range: 1 - 5 scale
+
+\- Distribution: Beta (α=2, β=5)
+
+\- Description: Self-reported financial stress
 
 
 
@@ -137,13 +210,13 @@ social\_study\_tradeoff ≈ -0.25
 
 \### Primary Applications
 
-\- \*\*Educational Research\*\*: Lifestyle-academic performance relationships
+\- Educational Research: Lifestyle-academic performance relationships
 
-\- \*\*Machine Learning\*\*: Predictive model development
+\- Machine Learning: Predictive model development
 
-\- \*\*Academic Studies\*\*: Student behavior pattern analysis
+\- Academic Studies: Student behavior pattern analysis
 
-\- \*\*Institutional Research\*\*: Analytics system prototyping
+\- Institutional Research: Analytics system prototyping
 
 
 
@@ -169,27 +242,39 @@ social\_study\_tradeoff ≈ -0.25
 
 
 
-| Limitation | Impact | Mitigation |
+\*\*Generalized Patterns\*\*
 
-|------------|--------|------------|
+\- Impact: May miss nuances
 
-| Generalized Patterns | May miss nuances | Based on aggregate research |
+\- Mitigation: Based on aggregate research
 
-| Institutional Variation | One-size-fits-all | Customizable parameters |
 
-| Cultural Factors | Limited representation | Research-informed ranges |
+
+\*\*Institutional Variation\*\*
+
+\- Impact: One-size-fits-all
+
+\- Mitigation: Customizable parameters
+
+
+
+\*\*Cultural Factors\*\*
+
+\- Impact: Limited representation
+
+\- Mitigation: Research-informed ranges
 
 
 
 \### Ethical Usage Guidelines
 
-\- \*\*No Real Data\*\*: All records are synthetically generated
+\- No Real Data: All records are synthetically generated
 
-\- \*\*Privacy Protection\*\*: No inference to real individuals possible
+\- Privacy Protection: No inference to real individuals possible
 
-\- \*\*Appropriate Use\*\*: Research and development only
+\- Appropriate Use: Research and development only
 
-\- \*\*Production Warning\*\*: Validate with real data before deployment
+\- Production Warning: Validate with real data before deployment
 
 
 
@@ -207,23 +292,27 @@ STU\_0001,John Smith,3.45,28.5,6.8,...
 
 STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
-...
-
 ```
 
 
 
 \### Data Types Summary
 
-| Data Type | Features | Count |
+\*\*String\*\* (2 features)
 
-|-----------|----------|-------|
+\- student\_id, name
 
-| String | student\_id, name | 2 |
 
-| Float | gpa, weekly\_study\_hours, sleep\_hours\_per\_night, social\_events\_per\_week, exercise\_hours\_per\_week, financial\_stress\_level, extracurricular\_hours | 7 |
 
-| Integer | assignments\_due\_this\_week, classes\_per\_week, part\_time\_job\_hours, commute\_time\_minutes | 4 |
+\*\*Float\*\* (7 features)
+
+\- gpa, weekly\_study\_hours, sleep\_hours\_per\_night, social\_events\_per\_week, exercise\_hours\_per\_week, financial\_stress\_level, extracurricular\_hours
+
+
+
+\*\*Integer\*\* (4 features)
+
+\- assignments\_due\_this\_week, classes\_per\_week, part\_time\_job\_hours, commute\_time\_minutes
 
 
 
@@ -233,31 +322,89 @@ STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
 \### Descriptive Statistics
 
-| Feature | Mean | Std Dev | Min | Max |
+\*\*GPA\*\*
 
-|---------|------|---------|-----|-----|
+\- Mean: 3.21
 
-| GPA | 3.21 | 0.42 | 2.15 | 3.98 |
+\- Std Dev: 0.42
 
-| Study Hours | 25.3 | 7.8 | 11.5 | 48.2 |
+\- Min: 2.15
 
-| Sleep Hours | 6.4 | 1.3 | 4.1 | 9.8 |
+\- Max: 3.98
+
+
+
+\*\*Study Hours\*\*
+
+\- Mean: 25.3
+
+\- Std Dev: 7.8
+
+\- Min: 11.5
+
+\- Max: 48.2
+
+
+
+\*\*Sleep Hours\*\*
+
+\- Mean: 6.4
+
+\- Std Dev: 1.3
+
+\- Min: 4.1
+
+\- Max: 9.8
 
 
 
 \### Correlation Matrix (Sample)
 
-| Feature | GPA | Study Hours | Sleep | Social |
+\*\*GPA\*\*
 
-|---------|-----|-------------|-------|--------|
+\- GPA: 1.00
 
-| GPA | 1.00 | 0.42 | 0.15 | 0.08 |
+\- Study Hours: 0.42
 
-| Study Hours | 0.42 | 1.00 | -0.31 | -0.27 |
+\- Sleep: 0.15
 
-| Sleep Hours | 0.15 | -0.31 | 1.00 | 0.18 |
+\- Social: 0.08
 
-| Social Events | 0.08 | -0.27 | 0.18 | 1.00 |
+
+
+\*\*Study Hours\*\*
+
+\- GPA: 0.42
+
+\- Study Hours: 1.00
+
+\- Sleep: -0.31
+
+\- Social: -0.27
+
+
+
+\*\*Sleep Hours\*\*
+
+\- GPA: 0.15
+
+\- Study Hours: -0.31
+
+\- Sleep: 1.00
+
+\- Social: 0.18
+
+
+
+\*\*Social Events\*\*
+
+\- GPA: 0.08
+
+\- Study Hours: -0.27
+
+\- Sleep: 0.18
+
+\- Social: 1.00
 
 
 
@@ -269,7 +416,7 @@ When using this dataset, please acknowledge:
 
 
 
-> "Synthetic College Student Lifestyle Dataset generated for educational research purposes using research-informed parameter distributions."
+"Synthetic College Student Lifestyle Dataset generated for educational research purposes using research-informed parameter distributions."
 
 
 
