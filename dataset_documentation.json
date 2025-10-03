@@ -1,0 +1,77 @@
+{
+  "purpose": "Synthetic dataset of student lifestyle and academic factors for educational research",
+  "generation_method": "Research-informed synthetic data generation based on established educational studies",
+  "ethical_considerations": [
+    "No real student data used",
+    "All identifiers are synthetic",
+    "Based on aggregate research findings rather than individual data",
+    "Intended for educational research and model development only"
+  ],
+  "data_characteristics": {
+    "total_students": 300,
+    "feature_count": 11,
+    "feature_summary": {
+      "gpa": {
+        "min": 2.0,
+        "max": 4.0,
+        "mean": 3.168633333333333
+      },
+      "weekly_study_hours": {
+        "min": 10.0,
+        "max": 50.0,
+        "mean": 25.533
+      }
+    },
+    "data_quality_validation": {
+      "ranges": {
+        "gpa_valid": "True",
+        "sleep_hours_valid": "True",
+        "study_hours_valid": "True"
+      },
+      "distributions": {
+        "gpa_normal": "True",
+        "realistic_study_hours": "True"
+      },
+      "logic": {
+        "study_sleep_tradeoff": "True",
+        "realistic_correlations": "True"
+      },
+      "completeness": {
+        "no_missing_values": "True",
+        "consistent_data_types": "False"
+      },
+      "metrics": {
+        "gpa_skew": -0.10289724673120748,
+        "study_hours_std": 7.644654787676325,
+        "study_sleep_correlation": -0.023831555187396353,
+        "gpa_study_correlation": -0.057096814646771715
+      }
+    }
+  },
+  "recommended_use_cases": [
+    "Educational research prototyping",
+    "Student behavior analysis",
+    "Academic performance studies",
+    "Lifestyle factor correlations"
+  ],
+  "limitations": [
+    "Synthetic data may not capture all real-world complexities",
+    "Based on generalized research findings",
+    "Should be validated with real data before production use"
+  ],
+  "feature_descriptions": {
+    "student_id": "Unique synthetic identifier for each student",
+    "name": "Synthetic name generated using Faker library",
+    "gpa": "Grade Point Average (2.0-4.0 scale)",
+    "weekly_study_hours": "Total hours spent studying per week",
+    "sleep_hours_per_night": "Average hours of sleep per night",
+    "social_events_per_week": "Number of social activities attended weekly",
+    "exercise_hours_per_week": "Hours of physical exercise per week",
+    "part_time_job_hours": "Hours worked at part-time job (0 if no job)",
+    "commute_time_minutes": "Daily commute time in minutes",
+    "financial_stress_level": "Self-reported financial stress (1-5 scale)",
+    "assignments_due_this_week": "Number of assignments due in current week",
+    "classes_per_week": "Total hours of classes per week",
+    "extracurricular_hours": "Hours spent on extracurricular activities"
+  }
+}
