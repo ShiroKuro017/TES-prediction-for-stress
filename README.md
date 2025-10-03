@@ -3,42 +3,37 @@
 "TES prediction for stress" just a repo and code for what i and my friend learn for master
 
 
-
-Here's the corrected markdown with proper table formatting:
-
-
-
 \# Synthetic College Student Lifestyle Dataset
 
 
 
-\## 📊 Dataset Overview
+\## Dataset Overview
 
 
 
-| \*\*Attribute\*\* | \*\*Description\*\* |
+| Attribute | Description |
 
-|---------------|-----------------|
+|-----------|-------------|
 
-| \*\*Dataset Name\*\* | Synthetic College Student Lifestyle Dataset |
+| Dataset Name | Synthetic College Student Lifestyle Dataset |
 
-| \*\*Purpose\*\* | Educational research, academic studies, and machine learning model development |
+| Purpose | Educational research, academic studies, and machine learning model development |
 
-| \*\*Records\*\* | 300 synthetic student profiles |
+| Records | 300 synthetic student profiles |
 
-| \*\*Features\*\* | 13 variables across 3 categories |
+| Features | 13 variables across 3 categories |
 
-| \*\*Format\*\* | CSV (Comma-Separated Values) |
+| Format | CSV (Comma-Separated Values) |
 
-| \*\*File Size\*\* | ~45-50 KB |
+| File Size | ~45-50 KB |
 
-| \*\*Encoding\*\* | UTF-8 |
+| Encoding | UTF-8 |
 
-| \*\*Ethical Status\*\* | Fully synthetic, no real student data |
+| Ethical Status | Fully synthetic, no real student data |
 
 
 
-\## 🆔 Student Identification Features
+\## Student Identification Features
 
 
 
@@ -52,7 +47,7 @@ Here's the corrected markdown with proper table formatting:
 
 
 
-\## 📚 Academic Metrics
+\## Academic Metrics
 
 
 
@@ -70,7 +65,7 @@ Here's the corrected markdown with proper table formatting:
 
 
 
-\## 🏃 Lifestyle Factors
+\## Lifestyle Factors
 
 
 
@@ -88,7 +83,7 @@ Here's the corrected markdown with proper table formatting:
 
 
 
-\## 🏙️ Environmental Factors
+\## Environmental Factors
 
 
 
@@ -104,7 +99,7 @@ Here's the corrected markdown with proper table formatting:
 
 
 
-\## 🔬 Data Generation Methodology
+\## Data Generation Methodology
 
 
 
@@ -122,7 +117,7 @@ Here's the corrected markdown with proper table formatting:
 
 \### Realistic Correlations
 
-```python
+```
 
 \# Key relationships built into the data
 
@@ -136,19 +131,19 @@ social\_study\_tradeoff ≈ -0.25
 
 
 
-\## 🎯 Intended Use Cases
+\## Intended Use Cases
 
 
 
 \### Primary Applications
 
-\- 🎓 \*\*Educational Research\*\*: Lifestyle-academic performance relationships
+\- \*\*Educational Research\*\*: Lifestyle-academic performance relationships
 
-\- 🤖 \*\*Machine Learning\*\*: Predictive model development
+\- \*\*Machine Learning\*\*: Predictive model development
 
-\- 📈 \*\*Academic Studies\*\*: Student behavior pattern analysis
+\- \*\*Academic Studies\*\*: Student behavior pattern analysis
 
-\- 🏫 \*\*Institutional Research\*\*: Analytics system prototyping
+\- \*\*Institutional Research\*\*: Analytics system prototyping
 
 
 
@@ -164,13 +159,13 @@ social\_study\_tradeoff ≈ -0.25
 
 
 
-\## ⚠️ Limitations \& Ethical Considerations
+\## Limitations \& Ethical Considerations
 
 
 
 \### Synthetic Nature
 
-> ⚠️ \*\*Note\*\*: This is computer-generated data and may not capture all real-world complexities.
+\*\*Note\*\*: This is computer-generated data and may not capture all real-world complexities.
 
 
 
@@ -178,33 +173,33 @@ social\_study\_tradeoff ≈ -0.25
 
 |------------|--------|------------|
 
-| \*\*Generalized Patterns\*\* | May miss nuances | Based on aggregate research |
+| Generalized Patterns | May miss nuances | Based on aggregate research |
 
-| \*\*Institutional Variation\*\* | One-size-fits-all | Customizable parameters |
+| Institutional Variation | One-size-fits-all | Customizable parameters |
 
-| \*\*Cultural Factors\*\* | Limited representation | Research-informed ranges |
+| Cultural Factors | Limited representation | Research-informed ranges |
 
 
 
 \### Ethical Usage Guidelines
 
-\- 🔒 \*\*No Real Data\*\*: All records are synthetically generated
+\- \*\*No Real Data\*\*: All records are synthetically generated
 
-\- 🛡️ \*\*Privacy Protection\*\*: No inference to real individuals possible
+\- \*\*Privacy Protection\*\*: No inference to real individuals possible
 
-\- 🎯 \*\*Appropriate Use\*\*: Research and development only
+\- \*\*Appropriate Use\*\*: Research and development only
 
-\- ⚖️ \*\*Production Warning\*\*: Validate with real data before deployment
+\- \*\*Production Warning\*\*: Validate with real data before deployment
 
 
 
-\## 📁 Technical Specifications
+\## Technical Specifications
 
 
 
 \### File Structure
 
-```csv
+```
 
 student\_id,name,gpa,weekly\_study\_hours,sleep\_hours\_per\_night,...
 
@@ -224,15 +219,15 @@ STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
 |-----------|----------|-------|
 
-| \*\*String\*\* | student\_id, name | 2 |
+| String | student\_id, name | 2 |
 
-| \*\*Float\*\* | gpa, weekly\_study\_hours, sleep\_hours\_per\_night, social\_events\_per\_week, exercise\_hours\_per\_week, financial\_stress\_level, extracurricular\_hours | 7 |
+| Float | gpa, weekly\_study\_hours, sleep\_hours\_per\_night, social\_events\_per\_week, exercise\_hours\_per\_week, financial\_stress\_level, extracurricular\_hours | 7 |
 
-| \*\*Integer\*\* | assignments\_due\_this\_week, classes\_per\_week, part\_time\_job\_hours, commute\_time\_minutes | 4 |
+| Integer | assignments\_due\_this\_week, classes\_per\_week, part\_time\_job\_hours, commute\_time\_minutes | 4 |
 
 
 
-\## 📊 Sample Statistics
+\## Sample Statistics
 
 
 
@@ -242,11 +237,11 @@ STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
 |---------|------|---------|-----|-----|
 
-| \*\*GPA\*\* | 3.21 | 0.42 | 2.15 | 3.98 |
+| GPA | 3.21 | 0.42 | 2.15 | 3.98 |
 
-| \*\*Study Hours\*\* | 25.3 | 7.8 | 11.5 | 48.2 |
+| Study Hours | 25.3 | 7.8 | 11.5 | 48.2 |
 
-| \*\*Sleep Hours\*\* | 6.4 | 1.3 | 4.1 | 9.8 |
+| Sleep Hours | 6.4 | 1.3 | 4.1 | 9.8 |
 
 
 
@@ -256,17 +251,17 @@ STU\_0002,Jane Doe,3.78,32.1,7.2,...
 
 |---------|-----|-------------|-------|--------|
 
-| \*\*GPA\*\* | 1.00 | 0.42 | 0.15 | 0.08 |
+| GPA | 1.00 | 0.42 | 0.15 | 0.08 |
 
-| \*\*Study Hours\*\* | 0.42 | 1.00 | -0.31 | -0.27 |
+| Study Hours | 0.42 | 1.00 | -0.31 | -0.27 |
 
-| \*\*Sleep Hours\*\* | 0.15 | -0.31 | 1.00 | 0.18 |
+| Sleep Hours | 0.15 | -0.31 | 1.00 | 0.18 |
 
-| \*\*Social Events\*\* | 0.08 | -0.27 | 0.18 | 1.00 |
+| Social Events | 0.08 | -0.27 | 0.18 | 1.00 |
 
 
 
-\## 📝 Citation
+\## Citation
 
 
 
@@ -278,7 +273,7 @@ When using this dataset, please acknowledge:
 
 
 
-\## 🔗 Files Included
+\## Files Included
 
 
 
@@ -290,7 +285,7 @@ When using this dataset, please acknowledge:
 
 
 
-\## ❓ Support
+\## Support
 
 
 
@@ -307,6 +302,4 @@ This dataset is provided as-is for research and educational purposes. For method
 \*Dataset Version: 1.0\*  
 
 \*Generated with: Python + Faker + Research Parameters\*
-
-```
 
